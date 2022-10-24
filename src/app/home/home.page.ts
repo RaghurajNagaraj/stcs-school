@@ -13,6 +13,7 @@ export class HomePage implements OnInit {
 
   quote
 
+  
   constructor() { }
 
   ngOnInit() {
