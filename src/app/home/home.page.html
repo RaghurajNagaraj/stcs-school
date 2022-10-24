@@ -30,8 +30,8 @@
         <ion-card-subtitle>15-10-2022</ion-card-subtitle>
       </ion-card-header>
 
-      <ion-card-content>
-        "If I cannot do great things, I can do small things in a great way"
+      <ion-card-content *ngFor="let item of quote | keyvalue">
+        {{item.value}}
       </ion-card-content>
     </ion-card>
 

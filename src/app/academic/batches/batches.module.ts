@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FolderPageRoutingModule } from './folder-routing.module';
+import { BatchesPageRoutingModule } from './batches-routing.module';
 
-import { FolderPage } from './folder.page';
+import { BatchesPage } from './batches.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    BatchesPageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [BatchesPage]
 })
-export class FolderPageModule {}
+export class BatchesPageModule {}
